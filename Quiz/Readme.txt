@@ -1,0 +1,1 @@
+This is a simple quiz used to show off my programming skill. It’s very straightforward and largely explains itself. However, it is entirely done in Dutch. 

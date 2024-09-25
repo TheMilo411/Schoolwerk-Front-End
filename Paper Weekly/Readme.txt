@@ -1,0 +1,1 @@
+This is a simple blog to show off my HTML skill. It’s based on a website, but one that no longer exists sadly enough.

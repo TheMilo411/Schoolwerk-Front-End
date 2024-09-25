@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <section class="intropage" id="intropage">
+        <div class="intro">
+            <h1>Quiz uitleg.</h1>
+            <P>Dit is een simpele quiz om mijn programmeer vaardigheden te laten zien.  Je kan je naam invoeren voordat je naar de quiz gaat. Je krijg tijdens de quiz 15 seconden om een keuzen te maken door op een van de knoppen te drukken. Bij het einde krijg je de score te zien, en de optie om de vragen die je gefaald hebt na te kijken.</P>
+        </div>
+        <div class="inputfield">
+            <label for="nameinput">Naam hier =>:</label>
+            <input id="nameinput" type="text" class="nameinsert" placeholder="Voer je naam hier in:" >
+            <input id="confirmname" type="button" class="confirmnamebutton" value="Ga naar de quiz:">
+        </div>
+    </section>
+
+
+    <section class="quizpage" id="quizpage">
+        <div class="quizquestion">
+            <h1>Quizvraag</h1>
+            <p id="user">Hallo, hier is de vraag die je moet beantwoorden: </p>
+            <p id="question" class="question">placeholder</p>
+            <ul id="quiz" class="quiz">
+                <button class="quizitem" id="quizitem1">
+                    Item 1
+                  </li>
+                  <button class="quizitem" id="quizitem2">
+                    Item 2
+                  </li>
+                  <button class="quizitem" id="quizitem3">
+                    Item 3
+                  </li>
+                  <button class="quizitem" id="quizitem4">
+                    Item 4
+                  </li>
+                </ul>
+                <p id="timer" class="timer">15 seconds resterend</p>
+        </div>
+    
+</div>
+       </section>
+       
+    <section class="answerpage" id="answerpage">
+        <div class="Answer" id="awnser">
+        <p class="finalscore" id="finalscore">Je score is:</p>
+        <p id="score" class="score">0</p>
+        <p id="end" class="end">Placeholder</p>
+        <button class="choicebutton" id="choicebutton">Wil je weten wat je fout heb gedaan?</button>
+            </div>
+            
+    </section>
+</body>
+</html>
